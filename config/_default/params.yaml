@@ -128,4 +128,5 @@ codefolding_show: show
 # Set to true to exclude the "Show/hide all" button
 codefolding_nobutton: false
 # Google Analytics (added for Wowchemy v5 compatibility)
-googleAnalytics: ""
+# Temporary fix for Hugo/Wowchemy Google Analytics bug
+GoogleAnalytics: ""
