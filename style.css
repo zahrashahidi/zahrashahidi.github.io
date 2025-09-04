@@ -68,7 +68,7 @@ nav ul li a.active {
 .content {
   max-width: 450px;   /* narrower, easier to read */
   font-size: 1.05em;
-  margin: 0 auto;
+  margin: 0 auto 0 80px;;
   text-align: justify;
 }
 
