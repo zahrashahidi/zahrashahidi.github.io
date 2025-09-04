@@ -66,9 +66,16 @@ nav ul li a.active {
 
 /* Page content */
 .content {
-  max-width: 900px;
+  max-width: 650px; /* Default narrow for About Me */
   font-size: 1.05em;
   margin: 0 auto;
+}
+
+/* Wider layout for Research, Teaching, CV */
+body.research-page .content,
+body.teaching-page .content,
+body.cv-page .content {
+  max-width: 900px;
 }
 
 h1, h2 {
