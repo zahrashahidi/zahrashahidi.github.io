@@ -64,11 +64,12 @@ nav ul li a.active {
   line-height: 1.4;
 }
 
-/* Page content */
+/* Default content (About Me page) */
 .content {
-  max-width: 650px; /* Default narrow for About Me */
+  max-width: 650px;   /* narrower, easier to read */
   font-size: 1.05em;
   margin: 0 auto;
+  text-align: left;
 }
 
 /* Wider layout for Research, Teaching, CV */
@@ -88,11 +89,4 @@ main {
   max-width: 900px;
   margin: 50px auto;
   padding: 20px;
-}
-
-/* Justify paragraphs */
-.content p {
-  text-align: justify;
-  text-align-last: justify;
-  -moz-text-align-last: justify;
 }
