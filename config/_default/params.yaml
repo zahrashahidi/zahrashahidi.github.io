@@ -21,12 +21,12 @@ marketing:
     description: 'Personal page'
     twitter: 'prasenjit52282'
   analytics:
-    google_analytics: ''
+    googleAnalytics: ""
     baidu_tongji: ''
   verification:
     google: ''
     baidu: ''
-googleAnalytics: ""
+
 
 # Site header
 
