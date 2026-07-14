@@ -3,53 +3,63 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Zahra Shahidi</title>
+  <meta name="description" content="Zahra Shahidi is a Ph.D. candidate in Economics at York University researching migration, labor markets, development, and gender inequality.">
+  <title>Zahra Shahidi | Economist</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <nav>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Zahra Shahidi, home">
+      <span class="brand-mark" aria-hidden="true">ZS</span>
+      <span>Zahra Shahidi</span>
+    </a>
+    <nav aria-label="Main navigation">
       <ul>
-        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="index.html" class="active" aria-current="page">Home</a></li>
         <li><a href="research.html">Research</a></li>
         <li><a href="teaching.html">Teaching</a></li>
-        <li><a href="cv.pdf" download>CV</a></li>
+        <li><a class="nav-cv" href="cv.pdf">CV <span aria-hidden="true">↗</span></a></li>
       </ul>
     </nav>
   </header>
 
-  <div class="container">
-    <div class="profile">
-      <img src="photo.jpg" alt="Profile photo">
-      <div class="contact-info">
-        <p>📧 <a href="mailto:zhash@yorku.ca">zhash@yorku.ca</a></p>
-        <p>🔗 <a href="https://github.com/zahrashahidi">GitHub</a> | <a href="https://www.linkedin.com/in/zahra-shahidi">LinkedIn</a></p>
+  <main>
+    <section class="hero shell">
+      <div class="hero-copy">
+        <p class="eyebrow">Macroeconomics · Development · Labor Economics</p>
+        <h1 class="welcome-title">Welcome to my website!</h1>
+        <p class="hero-lede">I am a Ph.D. candidate in Economics at <a class="university-link" href="https://www.yorku.ca/gradstudies/economics/about-us/phd-job-candidates/">York University</a> and am currently on the academic job market. My research is motivated by a simple idea: economic choices depend not only on the opportunities people face, but also on what they believe those opportunities to be. I study this idea across decisions about college, migration, and labor-market participation, combining microdata with quantitative models to examine how imperfect information and structural barriers distort choices, misallocate talent, and shape aggregate outcomes.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="research.html">Explore my research <span aria-hidden="true">→</span></a>
+          <a class="button button-secondary" href="cv.pdf">View CV</a>
+        </div>
+      </div>
+
+      <div class="portrait-wrap">
+        <div class="portrait-accent" aria-hidden="true"></div>
+        <img class="portrait" src="photo1.png" alt="Portrait of Zahra Shahidi">
+        <div class="portrait-links" aria-label="Contact and profiles">
+          <a href="https://zahrashahidi.github.io">Website</a>
+          <a href="https://www.linkedin.com/in/zahra-shahidi">LinkedIn</a>
+          <a href="mailto:zhash@yorku.ca">Email</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-inner">
+      <div>
+        <p class="footer-prompt">Contact</p>
+        <a class="footer-email" href="mailto:zhash@yorku.ca">zhash@yorku.ca</a>
+      </div>
+      <div class="footer-links">
+        <a href="https://www.linkedin.com/in/zahra-shahidi">LinkedIn</a>
+        <a href="https://github.com/zahrashahidi">GitHub</a>
+        <a href="cv.pdf">CV</a>
       </div>
     </div>
-
-    <div class="content">
-      <h1>Zahra Shahidi</h1>
-      <p><em>Ph.D. Candidate in Economics, York University</em></p>
-
-      <h2>About Me</h2>
-      <p>
-        I am a Ph.D. candidate in Economics at York University. My research lies at the intersection of
-        <strong>macroeconomics, development, labor economics, and gender inequality</strong>, with a focus on how
-        information frictions and talent misallocation affect migration and labor market outcomes.
-      </p>
-
-      <p>
-        Current projects include a macroeconomic model of rural–urban migration under information frictions and an analysis of
-        the economic costs of barriers to female labor force participation.
-      </p>
-
-      <p>
-        I hold a <strong>Bachelor’s degree in Mathematics</strong> and a <strong>Master’s degree in Economics</strong>.
-        Prior to my doctoral studies, I contributed to research and policy analysis at the
-        <strong>Parliament Research Center of Iran</strong> and the <strong>Ministry of Welfare</strong>, working on poverty
-        monitoring and household expenditure data.
-      </p>
-    </div>
-  </div>
+  </footer>
 </body>
 </html>
