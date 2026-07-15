@@ -338,6 +338,7 @@ h1 em,
 
 .site-footer { padding: 48px 0; background: var(--ink); color: var(--white); }
 .footer-inner { display: flex; align-items: end; justify-content: space-between; gap: 40px; }
+.footer-note { margin: 0; color: rgba(255,255,255,.72); font-size: .78rem; letter-spacing: .04em; }
 .footer-prompt { margin: 0 0 8px; font-size: .75rem; letter-spacing: .09em; text-transform: uppercase; }
 .footer-email { font-family: Georgia, "Times New Roman", serif; font-size: clamp(1.45rem, 3vw, 2.25rem); border-bottom: 1px solid rgba(255,255,255,.45); }
 .footer-links { display: flex; gap: 26px; font-size: .85rem; }
